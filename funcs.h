@@ -1,3 +1,7 @@
 #pragma once
+#include <vector>
+#include <iostream>
 
-// add prototypes here
+int charIndex(char o);
+char shiftChar(char o, int sh);
+std::string encryptCaesar(std::string o, int shift);
